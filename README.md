@@ -28,6 +28,9 @@ RPI-Monitor implementation for integration into ioBroker. It is the same impleme
 
 For gpio to work, you need to install `libgpiod` in version `2.x`, **before** installing the adapter (see below)!
 
+> [!CAUTION]
+> Version 3.x.x of this adapter supports and requires Debian trixie. Do not update if you are using older o/s.
+
 ## Installation
 
 After installation you have to configure all required modules via administration page.
