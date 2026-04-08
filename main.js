@@ -323,7 +323,7 @@ async function main(adapter) {
             }, adapter.config.interval || 60000),
         );
 
-        exec = require('child_process').execSync;
+        exec = require('node:child_process').execSync;
         await parser(adapter);
     } else {
         adapter.log.info('No parser items enabled - skipping');
